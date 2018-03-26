@@ -1,4 +1,11 @@
+/**
+  * Zeigt die XML-Verarbeitung mit Scala - speziell dem scala.xml package.
+  *
+  * Showcase: XPath, XML-Read, XML-Serialisierung in das generische XML-Element,
+  *           das Finden von Informationen mit XPath und Lambdas.
+  */
 object XmlReader {
+
   def main(args : Array[String]): Unit = {
 
     println("Read xml file:")
