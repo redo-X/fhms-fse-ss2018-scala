@@ -38,8 +38,8 @@ object Sudoku {
         }
       }
 
-      if(!stillEmptyCells){
-        return true
+        if(!stillEmptyCells){
+          return true
       }
 
       for(x <- 1 to 9) {
