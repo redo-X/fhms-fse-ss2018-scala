@@ -8,13 +8,12 @@ import scala.xml.pull.{EvElemStart, EvText, XMLEventReader}
   */
 object XmlPullProcessing {
   def main(args: Array[String]): Unit = {
+    // var reader = new XMLEventReader(scala.io.Source.fromInputStream(getClass.getResourceAsStream("/books.xml")))
+
+    // println("== print events")
+    // reader.foreach(println)
+
     var reader = new XMLEventReader(scala.io.Source.fromInputStream(getClass.getResourceAsStream("/books.xml")))
-
-    println("== print events")
-    reader.foreach(println)
-
-    reader = new XMLEventReader(scala.io.Source.fromInputStream(getClass.getResourceAsStream("/books.xml")))
-    println("== print all authors")
 
     val authors = ListBuffer[String]()
     var isAuthorTag = false

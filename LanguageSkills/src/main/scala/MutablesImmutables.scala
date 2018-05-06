@@ -4,6 +4,6 @@ object MutablesImmutables {
     mutableNumber = 1
 
     val immutableNumber = 10
-    // immutableNumber = 20
+    // immutableNumber = 20 // Not possible
   }
 }
