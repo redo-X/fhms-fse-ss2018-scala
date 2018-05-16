@@ -9,17 +9,15 @@ object AutoHashingEqualsClone {
     val rectangle1Clone = rectangle1.copy()
 
     // Equality
-    Console.println("rectangle1 == rectangle2: " + rectangle1 == rectangle2)
-    Console.println("rectangle1 equals rectangle3: " + rectangle1.equals(rectangle3))
+    println(s"rectangle1 == rectangle2: ${rectangle1 == rectangle2}")
+    println(s"rectangle1 equals rectangle3: ${rectangle1.equals(rectangle3)}")
 
     // Copy
-    Console.println("rectangle1 equals rectangle1Clone: " + rectangle1.equals(rectangle1Clone))
+    println(s"rectangle1 equals rectangle1Clone: ${rectangle1.equals(rectangle1Clone)}")
 
     // Hashing
-    Console.println("rectangle1.hashCode: " + rectangle1.hashCode())
-    Console.println("rectangle2.hashCode: " + rectangle2.hashCode())
-    Console.println("rectangle3.hashCode: " + rectangle3.hashCode())
+    println(s"rectangle1.hashCode: ${rectangle1.hashCode()}")
+    println(s"rectangle2.hashCode: ${rectangle2.hashCode()}")
+    println(s"rectangle3.hashCode: ${rectangle3.hashCode()}")
   }
 }
-
-
